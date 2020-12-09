@@ -132,6 +132,7 @@ class AuthConfig {
       def username = (authentication?.getPrincipal() as User)?.username
       if (username) {
         permissionService.logout(username)
+        log.info("Successfully logged out user : {}", username)
       }
       delegate.onLogoutSuccess(request, response, authentication)
     }
