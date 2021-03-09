@@ -33,9 +33,9 @@ authn:
 google: {}
 logging:
   level:
-    com.netflix.spinnaker.gate.security: DEBUG
-    org.springframework.security: DEBUG
-    org.springframework.web: DEBUG
+    com.netflix.spinnaker.gate.security: WARN
+    org.springframework.security: WARN
+    org.springframework.web: WARN
 
 redis:
   connection: redis://spin-redis:6379
