@@ -31,11 +31,6 @@ file:
 authn:
   mode: session
 google: {}
-logging:
-  level:
-    com.netflix.spinnaker.gate.security: DEBUG
-    org.springframework.security: DEBUG
-    org.springframework.web: DEBUG
 
 redis:
   connection: redis://spin-redis:6379
