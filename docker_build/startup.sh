@@ -10,5 +10,5 @@ else
   echo "No Gate service.Starting a new one."
 fi
 sleep 5
-${WORK_DIR}/gate/bin/gate | tee ${WORK_DIR}/logs/gate.log
+${WORK_DIR}/gate/bin/gate
 echo "Gate service Started"

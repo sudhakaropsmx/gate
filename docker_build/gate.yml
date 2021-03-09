@@ -31,6 +31,11 @@ file:
 authn:
   mode: session
 google: {}
+logging:
+  level:
+    com.netflix.spinnaker.gate.security: INFO
+    org.springframework.security: INFO
+    org.springframework.web: INFO
 
 redis:
   connection: redis://spin-redis:6379
