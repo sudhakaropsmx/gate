@@ -1,6 +1,6 @@
 #!/bin/bash
 
-${WORK_DIR}/gate/bin/gate
+${WORK_DIR}/gate/bin/gate 
 
 cd ${WORK_DIR}
 sleep 10
