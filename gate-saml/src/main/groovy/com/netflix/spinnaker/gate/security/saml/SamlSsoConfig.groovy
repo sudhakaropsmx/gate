@@ -200,6 +200,7 @@ class SamlSsoConfig extends WebSecurityConfigurerAdapter {
   public WebSSOProfileConsumerImpl getWebSSOProfileConsumerImpl() {
     WebSSOProfileConsumerImpl profileConsumer = new WebSSOProfileConsumerImpl();
     profileConsumer.setMaxAuthenticationAge(samlSecurityConfigProperties.maxAuthenticationAge);
+    log.info(" maxAuthenticationAge : " + samlSecurityConfigProperties.maxAuthenticationAge)
     return profileConsumer;
   }
 
